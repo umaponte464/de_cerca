@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Descifrar — De cerca</title>
+  <title>Descifrar · De cerca</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <a class="skip" href="#main">Saltar al contenido</a>
@@ -26,26 +26,45 @@
   <main id="main">
     <section class="section-page">
       <div class="wrap">
-        <div class="section-hero">
-          <p class="eyebrow eyebrow--orange">Sección</p>
-          <h1 class="section-hero__title">Descifrar</h1>
-          <p class="section-hero__lead">El idioma que hablamos sin darnos cuenta. Explicamos, con contexto y sin vueltas, qué significan los gestos y las palabras del vínculo digital.</p>
+        <div class="section-hero section-hero--media">
+          <div class="section-hero__text">
+            <p class="eyebrow eyebrow--orange">Sección</p>
+            <h1 class="section-hero__title">Descifrar</h1>
+            <p class="section-hero__lead">El idioma que hablamos sin darnos cuenta. Explicamos, con contexto y sin vueltas, qué significan los gestos y las palabras del vínculo digital.</p>
+          </div>
+          <figure class="section-hero__media">
+            <img src="https://images.unsplash.com/photo-1643639779508-4c60952c058c?auto=format&fit=crop&w=1400&q=80" alt="Una mano sostiene un celular." loading="lazy">
+            <figcaption><span class="credito">Foto de <a href="https://unsplash.com/photos/NGuctdgsuGc" target="_blank" rel="noopener">Nik</a> en Unsplash</span></figcaption>
+          </figure>
         </div>
-        <div class="article-list">
-          <article class="article-list__item">
-            <p class="eyebrow eyebrow--orange">Informativo</p>
-            <h2><a href="nota_vinculos_descartables.html">El 77% de los jóvenes argentinos cree que las relaciones de pareja son más descartables que antes</a></h2>
-            <p class="d">Un informe relevó a 643 jóvenes de 18 a 35 años: casi seis de cada diez solteros dicen que encontrar pareja es difícil.</p>
+
+        <div class="news-grid">
+          <article class="news-card news-card--destacada">
+            <a class="news-card__media" href="nota_vinculos_descartables.html" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1693486144318-8127a3ffadab?auto=format&fit=crop&w=1200&q=80" alt="Una mano sostiene un celular que muestra un perfil en una aplicación de citas." loading="lazy"></a>
+            <div class="news-card__body">
+              <p class="eyebrow eyebrow--orange">Informativo</p>
+              <h2 class="news-card__title"><a href="nota_vinculos_descartables.html">El 77% de los jóvenes argentinos cree que las relaciones de pareja son más descartables que antes</a></h2>
+              <p class="news-card__desc">Un informe relevó a 643 jóvenes de 18 a 35 años. Casi seis de cada diez solteros dicen que encontrar pareja es difícil.</p>
+              <span class="news-card__more">Leer nota <span aria-hidden="true">&rarr;</span></span>
+            </div>
           </article>
-          <article class="article-list__item">
-            <p class="eyebrow eyebrow--orange">Informativo</p>
-            <h2><a href="articulo.html">Adipiscing elit sed do eiusmod tempor</a></h2>
-            <p class="d">Ut enim ad minim veniam quis nostrud exercitation.</p>
+          <article class="news-card">
+            <a class="news-card__media" href="articulo.html" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1644445809941-aed4b1a851f5?auto=format&fit=crop&w=1200&q=80" alt="Una mano sostiene un celular rojo." loading="lazy"></a>
+            <div class="news-card__body">
+              <p class="eyebrow eyebrow--orange">Informativo</p>
+              <h2 class="news-card__title"><a href="articulo.html">Adipiscing elit sed do eiusmod tempor</a></h2>
+              <p class="news-card__desc">Ut enim ad minim veniam quis nostrud exercitation.</p>
+              <span class="news-card__more">Leer nota <span aria-hidden="true">&rarr;</span></span>
+            </div>
           </article>
-          <article class="article-list__item">
-            <p class="eyebrow eyebrow--orange">Informativo</p>
-            <h2><a href="articulo.html">Ut labore et dolore magna aliqua enim</a></h2>
-            <p class="d">Duis aute irure dolor in reprehenderit voluptate.</p>
+          <article class="news-card">
+            <a class="news-card__media" href="articulo.html" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1587573088796-ba5b6cfd8981?auto=format&fit=crop&w=1200&q=80" alt="Una persona sostiene un celular." loading="lazy"></a>
+            <div class="news-card__body">
+              <p class="eyebrow eyebrow--orange">Informativo</p>
+              <h2 class="news-card__title"><a href="articulo.html">Ut labore et dolore magna aliqua enim</a></h2>
+              <p class="news-card__desc">Duis aute irure dolor in reprehenderit voluptate.</p>
+              <span class="news-card__more">Leer nota <span aria-hidden="true">&rarr;</span></span>
+            </div>
           </article>
         </div>
       </div>
@@ -70,7 +89,7 @@
 
       </div>
     </div>
-    <p class="site-footer__legal">© 2026 De cerca · Proyecto Integrador — Taller de Redacción · Universidad de Palermo</p>
+    <p class="site-footer__legal">© 2026 De cerca · Proyecto Integrador · Taller de Redacción · Universidad de Palermo</p>
   </footer>
   <script src="script.js"></script>
 </body>
