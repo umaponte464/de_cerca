@@ -369,3 +369,7 @@ p{margin:0}
   .news-card--destacada .news-card__more{margin-top:8px}
 }
 
+
+/* Secciones que todavía no tienen notas */
+.empty-state{max-width:760px;margin-top:28px;padding:28px 26px;border:1px dashed rgba(26,24,21,.22);border-radius:var(--radius);display:flex;flex-direction:column;gap:14px}
+.empty-state p{color:var(--muted);font-size:1.05rem}
