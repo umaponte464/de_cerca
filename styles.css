@@ -285,3 +285,45 @@ p{margin:0}
 .newsletter__form{flex-wrap:wrap}
 .newsletter__msg{flex-basis:100%;margin:0;color:var(--orange);font-weight:500;font-size:.92rem;min-height:1em}
 .newsletter__msg.is-error{color:var(--orange-ink)}
+
+/* ============================================================
+   NOTA INFORMATIVA (Etapa 2) — fotos y destacados para lectura rápida
+   ============================================================ */
+.nota__figure{margin:32px auto;max-width:720px}
+.nota__figure--wide{max-width:960px}
+.nota__figure img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:var(--radius);background:var(--ph-taupe)}
+.nota__figure img[src$=".png"]{aspect-ratio:auto;object-fit:contain;background:none}
+.nota__figure figcaption{font-size:.86rem;line-height:1.45;color:var(--muted);margin-top:10px;padding-inline:4px}
+.nota__credito{display:block;margin-top:3px;font-family:"Space Grotesk",sans-serif;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}
+.nota__credito a{color:inherit}
+
+.nota__claves{background:var(--bg-alt);border-left:4px solid var(--orange);border-radius:0 14px 14px 0;padding:18px 22px;margin:0 0 30px}
+.nota__claves .eyebrow{margin-bottom:8px}
+.nota__claves ul{margin:0;padding-left:1.1em}
+.nota__claves li{font-size:1rem;line-height:1.55;margin-bottom:6px}
+.nota__claves li:last-child{margin-bottom:0}
+
+.prose .nota__lead{font-size:1.18rem;line-height:1.65;color:var(--ink)}
+.nota__h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(1.35rem,4.8vw,1.65rem);letter-spacing:-.01em;margin:40px 0 14px}
+.prose strong{font-weight:600;color:var(--ink);background:linear-gradient(transparent 62%,rgba(222,91,46,.22) 62%)}
+.prose a{color:var(--blue);text-underline-offset:3px;text-decoration-thickness:1.5px}
+.prose a:hover{color:var(--orange)}
+
+.nota__stats{display:grid;grid-template-columns:1fr;gap:12px;margin:28px 0 8px}
+.nota__stat{background:var(--dark);color:var(--dark-muted);border-radius:14px;padding:18px 20px;display:flex;align-items:center;gap:16px;font-size:.95rem;line-height:1.4}
+.nota__num{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:2.2rem;line-height:1;color:var(--orange);white-space:nowrap;flex:0 0 auto}
+.nota__num--blue{color:var(--blue-soft)}
+@media (min-width:640px){
+  .nota__stats{grid-template-columns:repeat(3,1fr)}
+  .nota__stat{flex-direction:column;align-items:flex-start;gap:8px}
+}
+
+.prose blockquote cite{display:block;margin-top:10px;font-family:"Space Grotesk",sans-serif;font-style:normal;font-weight:500;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+.nota__fuentes{margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+.nota__fuentes .eyebrow{margin-bottom:12px}
+.prose .nota__fuentes p{font-size:.9rem;line-height:1.55;color:var(--muted);overflow-wrap:anywhere}
+
+/* Tarjetas con foto real (home) */
+.card__media{overflow:hidden;background:var(--ph-taupe)}
+.card__media img{width:100%;height:100%;object-fit:cover}
