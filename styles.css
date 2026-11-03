@@ -396,3 +396,17 @@ p{margin:0}
 .columna .prose blockquote{font-family:"Fraunces",Georgia,serif;font-style:italic;font-size:1.45rem;line-height:1.35;color:var(--ink);border-left:4px solid var(--blue);padding-left:20px;margin:30px 0}
 .prose .firma{font-family:"Fraunces",Georgia,serif;font-style:italic;font-weight:600;font-size:1.1rem;text-align:right;margin-top:6px}
 .nota__stats + p{margin-top:26px}
+
+/* ============================================================
+   ENTREVISTA Y PERFIL (Etapa 4 · Mano a mano)
+   ============================================================ */
+.entrevista .prose blockquote{border-left-color:var(--blue)}
+.entrevista .nota__figure--retrato img{aspect-ratio:4/5;max-width:520px;margin-inline:auto}
+.entrevista .nota__figure--retrato figcaption{max-width:520px;margin-inline:auto}
+.perfil{max-width:640px;margin:44px auto 0;background:var(--bg-alt);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:var(--radius);padding:26px 24px}
+.perfil .eyebrow{color:var(--blue);margin-bottom:10px}
+.perfil__nombre{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.5rem;line-height:1.2;margin:0 0 6px}
+.perfil__bajada{font-style:italic;color:var(--muted);margin-bottom:16px}
+.perfil p{font-size:.98rem;line-height:1.65;margin-bottom:14px;color:#2a2823}
+.perfil p:last-child{margin-bottom:0}
+@media (min-width:720px){.perfil{padding:32px 34px}}
